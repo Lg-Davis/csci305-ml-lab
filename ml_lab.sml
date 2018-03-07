@@ -14,7 +14,12 @@ fun f [] = [] (*a*)
   | f (x::xs) = (x + 1) :: (f xs) (*b*)
 
 (* Datatype Set *)
-datatype 'element_set = Empty | Set of 'element * 'element_set
+datatype 'element set = Empty | Set of 'element * 'element set
+
+fun isMember(e,[set]) = false
+|   isMember(e,hd::t1) =
+      if e = hd then true
+      else isMember (e, t1);
 
 (* Simple function to stringify the contents of a Set of characters *)
 fun stringifyCharSet Empty = ""

@@ -146,7 +146,7 @@ Construct a datatype used to represent sets, called `set`, it should have two di
 Write a function `isMember` that determines if an element `e` is part of the set, `set`. This function will return `true` if `e` is a member of the set, `set`, and `false` otherwise.
 
 ```ml
- fun isMember e set = ; (* complete this function definition *)
+ fun isMember (e,set) = ; (* complete this function definition *)
 ```
 
 ### list2Set function
