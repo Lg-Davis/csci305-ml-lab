@@ -2,12 +2,19 @@
 *
 * CSCI 305 - ML Programming Lab
 *
-* <firstname> <lastname>
-* <email-address>
+* Logan Davis
+* logand222@gmail.com
 *
 ***************************************************************)
 
 (* Define your data type and functions here *)
+
+(* warm up function -- add one to each element in a given list *)
+fun f [] = [] (*a*)
+  | f (x::xs) = (x + 1) :: (f xs) (*b*)
+
+(* Datatype Set *)
+datatype 'element_set = Empty | Set of 'element * 'element_set
 
 (* Simple function to stringify the contents of a Set of characters *)
 fun stringifyCharSet Empty = ""
