@@ -1,29 +1,41 @@
-<firstname> <lastname>
+Logan Davis
 CSCI 305
 Spring 2018
 Lab Questions
 =======================
-1.
+1. val it = [,2,5,2,6,10] : int list
 
-2.
+2. The function f takes a given list of values, adds one to each element in the list
+   and returns the new edited list.
 
-3.
+For questions 3 and 4, I am under the assumption that you are referring to everything
+before each comment (* a *) and (* b *)
 
-4.
+3. The line that come before (* a *) defines a function f that takes in a list [] and
+   returns a list []
 
-5.
+4. The line before the comment (* b *) states that for each element in the list that
+   is passed into f should have 1 added to it and then retuned to the list.
 
-6.
+5. test.sml:13.1-13.33 Error: operator and operand don't agree [tycon mismatch]
+    operator domain: ''Z * ''Z set
+    operand:          string
+    in expression: isMember "one"
+
+6. My isMember function uses tail recursion
 
 7.
 
-8.
+8. A function that returns the value of its recursive call is said to be tail
+   recursive. The advantage is that a tail recursive function can be compiled into
+   a for loop. No computation happens after the recursive call. Thus, no variables
+   are referenced after recursive call.
 
 9.
 
 10.
 
-11.
+11. One aspect that I enjoyed about SMl was 
 
 12.
 
