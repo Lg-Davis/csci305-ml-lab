@@ -8,39 +8,56 @@ Lab Questions
 2. The function f takes a given list of values, adds one to each element in the list
    and returns the new edited list.
 
+** NOTE**
 For questions 3 and 4, I am under the assumption that you are referring to everything
 before each comment (* a *) and (* b *)
+** NOTE **
 
 3. The line that come before (* a *) defines a function f that takes in a list [] and
-   returns a list []
+   returns a list [] if the list is empty.
 
-4. The line before the comment (* b *) states that for each element in the list that
-   is passed into f should have 1 added to it and then retuned to the list.
+4. The line before the comment (* b *) states that the list should be split into two
+   parts, a head and a tail. The head is the first element in the list and the tail
+   is everything following the head. For every element in the list that is passed into
+   f, the function will add 1 to each element and return it back into the list. The
+   function is then called recursively with the remaining elements in the list.
 
 5. test.sml:13.1-13.33 Error: operator and operand don't agree [tycon mismatch]
     operator domain: ''Z * ''Z set
-    operand:          string
+    operand:          stringe
     in expression: isMember "one"
 
 6. My isMember function uses tail recursion
 
-7.
+7. val it = Set("it",Set("was",Set("the",Set("best", Set("of", Set("times,", Set("it", Set("was", Set("the", Set("worst", Set("of", Set("times",Empty))))))))))));
 
 8. A function that returns the value of its recursive call is said to be tail
    recursive. The advantage is that a tail recursive function can be compiled into
    a for loop. No computation happens after the recursive call. Thus, no variables
    are referenced after recursive call.
 
-9.
+9.  val it = Set("green", Set("eggs", Set("and", Set("ham", Empty)))
 
-10.
+10. val it = Set("and", Set("macaroni", Empty))
 
-11. One aspect that I enjoyed about SMl was 
+11. One aspect that I enjoyed about ML was the ability to split a list into a head
+    and be able to call operations on each. Most other languages do not support such
+    thing that I know of and it was nice way to problem solve some of the functions
+    in the ML lab.
 
-12.
+12. Just like learning any new language, it was very difficult. ML is very picky about
+    its syntax and I struggled with it for a while. There were lots of syntax errors that
+    I had to research what they meant and change my code from there. I also did not find a
+    way to use the "and" functionality just like && in java.
 
-13.
+13. I did not enjoy this lab. It was very stressful to make my code work because I did not
+    know what I was doing for the majority of the time... I also do not see much application
+    of ML in the real world for what I want to do with my computer science career. I will note
+    that it is always interesting to try and learn a new language to an extent just to see what
+    it offers and how thing work within that language.
 
-14.
+14. I roughly put in 10 hours on this ML lab
 
-15.
+15. I will most likely never use ML again in my life. I can not justify a reason to use ML in
+    the future. I do not even know what type of projects that I will encounter in the future that
+    could benefit from using ML, there are better alternatives in my opinion.
